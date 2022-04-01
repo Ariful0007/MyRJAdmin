@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.meass.myrjadmin">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".HomeActivity"></activity>
+        <activity
+            android:name=".AdminListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".DetailsActivity2"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".ReferList2"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".MonthlyStatus"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".Daily_Status"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".MarkListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".ReferList"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".DetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".LotterY_History"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".LotteryList"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".Lottery_Set"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".Bkash_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".Package_Active12"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".Password_Change"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".SubLimeAcitvity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".BlocklIstActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".PaymentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".Valid_user"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".NotificationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".RatingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".ListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".HelpLineActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".Taking_Information_to_User"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".Report"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".Package_Active"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="General">
+        <menu>
+            <item
+
+                android:id="@+id/addNote"
+                android:icon="@drawable/ic_home"
+                android:title="Home" />
+
+
+            <item
+
+                android:id="@+id/money"
+                android:icon="@drawable/ic_baseline_attach_money_24"
+                android:title="Send registration balance to user" />
+            <item
+
+                android:id="@+id/money_shoppin22g"
+                android:icon="@drawable/ic_baseline_attach_money_24"
+                android:title="Send main balance to user" />
+            <item
+
+                android:id="@+id/money_shopping"
+                android:icon="@drawable/ic_baseline_attach_money_24"
+                android:title="Send shopping balance to user" />
+
+            <item
+
+                android:id="@+id/daily_status"
+                android:icon="@drawable/ic_baseline_calendar_today_24"
+                android:title="Check Daily Transcation" />
+            <item
+
+                android:id="@+id/checkmonth"
+                android:icon="@drawable/ic_baseline_calendar_today_24"
+                android:title="Check Monthly Transcation" />
+
+            <item
+
+                android:id="@+id/addNoteee"
+                android:icon="@drawable/ic_baseline_smartphone_24"
+                android:title="Payment Number" />
+
+            <item
+                android:id="@+id/sync"
+                android:icon="@drawable/ic_baseline_report_24"
+                android:title="Feedbacks" />
+
+            <item
+                android:id="@+id/add_persinon"
+                android:icon="@drawable/ic_baseline_person_add_24"
+                android:title="Add Helpline People" />
+
+
+            <item
+                android:id="@+id/notification"
+                android:icon="@drawable/ic_baseline_notifications_active_24"
+                android:title="Add Notification" />
+            <item
+                android:id="@+id/main_notice"
+                android:icon="@drawable/ic_baseline_notification_important_24"
+                android:title="Main Notice To All User " />
+            <item
+                android:id="@+id/block"
+                android:icon="@drawable/ic_baseline_block_24"
+                android:title="Block a member" />
+            <item
+                android:id="@+id/mark_a_member"
+                android:icon="@drawable/ic_baseline_bookmark_border_24"
+                android:title="Mark a member" />
+            <item
+
+                android:id="@+id/booklisttt"
+                android:icon="@drawable/ic_baseline_bookmark_border_24"
+                android:title="Mark List" />
+
+            <item
+                android:id="@+id/block_see24"
+                android:icon="@drawable/ic_baseline_ac_unit_24"
+                android:title="See Daily Refer of a user" />
+            <item
+                android:id="@+id/block_see30"
+                android:icon="@drawable/ic_baseline_ac_unit_24"
+                android:title="See monthly Refer of a user" />
+            <item
+                android:id="@+id/shareapp6911"
+                android:icon="@drawable/ic_baseline_all_inclusive_24"
+                android:title="Off Apps Stop  Notification" />
+
+            <item
+                android:id="@+id/shareapp69"
+                android:icon="@drawable/ic_baseline_all_inclusive_24"
+                android:title="Off Main Notification" />
+            <item
+
+                android:id="@+id/uslist"
+                android:icon="@drawable/ic_baseline_list_24"
+                android:title="User Sendmoney List" />
+
+        </menu>
+    </item>
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/add_admin"
+                android:icon="@drawable/ic_baseline_person_add_24"
+                android:title="Add Admin" />
+            <item
+                android:id="@+id/admin_people"
+                android:icon="@drawable/ic_baseline_list_24"
+                android:title=" Admin List" />
+            <item
+                android:id="@+id/setHelp"
+                android:icon="@drawable/ic_baseline_help_outline_24"
+                android:title="Set Contact Helpline" />
+            <item
+                android:id="@+id/setHelpdelete"
+                android:icon="@drawable/ic_baseline_help_outline_24"
+                android:title="Delete Contact Helpline" />
+            <item
+                android:id="@+id/withdraw_off"
+                android:icon="@drawable/ic_baseline_all_inclusive_24"
+                android:title="Withdraw  Off" />
+            <item
+                android:id="@+id/withdraw_on"
+                android:icon="@drawable/ic_baseline_all_inclusive_24"
+                android:title="Withdraw  On" />
+            <item
+                android:id="@+id/payment_on"
+                android:icon="@drawable/ic_baseline_all_inclusive_24"
+                android:title="Daily Bonus  Off" />
+            <item
+                android:id="@+id/payment_off"
+                android:icon="@drawable/ic_baseline_all_inclusive_24"
+                android:title="Daily Bonus  On" />
+
+            <item
+                android:id="@+id/shareapp"
+                android:icon="@drawable/ic_baseline_attach_money_24"
+                android:title="Payment Request" />
+
+
+            <item
+                android:id="@+id/password"
+                android:icon="@drawable/ic_baseline_edit_attributes_24"
+                android:title="Password Change" />
+            <item
+                android:id="@+id/Password_c"
+                android:icon="@drawable/ic_baseline_list_24"
+                android:title="Password Change List" />
+            <item
+                android:id="@+id/shareapp1"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+
+</menu>
